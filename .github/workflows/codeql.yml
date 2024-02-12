@@ -112,6 +112,6 @@ jobs:
     - name: Advance Security Compliance Action
       uses: advanced-security/policy-as-code@main
       with:
-        token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
+        token: ${{ secrets.TOKEN }}
         policy: GeekMasherOrg/ghas-compliance
         policy-path: policy.yml
