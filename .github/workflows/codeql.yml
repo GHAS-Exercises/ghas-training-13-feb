@@ -110,7 +110,7 @@ jobs:
 
     steps:
     - name: Advance Security Compliance Action
-      uses: advanced-security/policy-as-code@main
+      uses: advanced-security/policy-as-code@v2.7.1
       with:
         token: ${{ secrets.TOKEN }}
         policy: GeekMasherOrg/ghas-compliance
